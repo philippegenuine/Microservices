@@ -6,7 +6,7 @@ Feature: Handle Sale Feature
     When quantity = null
     Then quantity = 1 and price=0
 
-  @ORPHAN
+  @POST-7 @OPEN
   Scenario: Quantity checking
     When quanity higher than 20
     Then discount is true
