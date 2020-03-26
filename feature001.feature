@@ -1,6 +1,6 @@
 Feature: Handle Sale Feature
 
-  @ORPHAN @ORPHAN
+  @ORPHAN @quantity @ORPHAN
   Scenario: Cashier Registers an article with code and quantity
     When quantity = null
     Then quantity = 1
