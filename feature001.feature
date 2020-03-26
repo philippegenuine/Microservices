@@ -8,3 +8,6 @@ Feature: Handle Sale Feature
 
   @ORPHAN @ORPHAN
   Scenario: Quantity checking
+    When quanity higher than 20
+    Then discount is true
+    
