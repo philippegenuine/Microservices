@@ -1,1 +1,1 @@
-Feature: Feature001
+Feature: Handle Sale Feature
