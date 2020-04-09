@@ -6,7 +6,7 @@ Feature: Handle Sale Feature
     When quantity = null
     Then quantity = 1 and price=0
 
-  @POST-7 @WIP
+  @POST-7 @COMPLETED
   Scenario: Quantity checking
     When quanity higher than 20
     Then discount is true
